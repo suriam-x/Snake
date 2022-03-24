@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fb83612-a348-4e67-91fd-17307db832d3" name="Changes" comment="erste seite eingerichtet nicjt fertig">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/50193312_303.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/istockphoto-503423412-170667a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website.html" afterDir="false" />
+    <list default="true" id="5fb83612-a348-4e67-91fd-17307db832d3" name="Changes" comment="fertige Hausaufgabe">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,8 +83,26 @@
       <workItem from="1647802215136" duration="25000" />
       <workItem from="1647815827992" duration="1132000" />
       <workItem from="1647883205134" duration="2478000" />
-      <workItem from="1647886194448" duration="312000" />
+      <workItem from="1647886194448" duration="964000" />
+      <workItem from="1647887780948" duration="745000" />
+      <workItem from="1647889350611" duration="70000" />
+      <workItem from="1648116734209" duration="1050000" />
     </task>
+    <task id="LOCAL-00001" summary="fertige Hausaufgabe">
+      <created>1647886587428</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647886587428</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fertige Hausaufgabe">
+      <created>1647886598258</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647886598258</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="erste seite eingerichtet nicjt fertig" />
-    <option name="LAST_COMMIT_MESSAGE" value="erste seite eingerichtet nicjt fertig" />
+    <MESSAGE value="fertige Hausaufgabe" />
+    <option name="LAST_COMMIT_MESSAGE" value="fertige Hausaufgabe" />
   </component>
 </project>

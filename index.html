@@ -20,7 +20,7 @@
         let ctx = canvas.getContext("2d");                          //ctx ermöglicht es auf dem Canvas zu "malen"
         let rows = 20;                                              //einteilen in Zeilen
         let cols = 20;                                              //einteilen in Spalten
-        let snake = [{x: 10, y: 10}];                               //bestimmen wo der Ursprung der Schlange ist, durch ein json
+        let snake = [{x: 10, y: 10},{x: 11, y: 10}];                               //bestimmen wo der Ursprung der Schlange ist, durch ein json
                                                                     // kann die Variable 2 Werte annehmen, durch das Array kann man mehrere jsons aneinander reihen
         let food;                                                   //definieren des Essens
         let cellWidth = canvas.width / cols;                        //einteilen der Zellbreite
@@ -30,7 +30,7 @@
 
         placefood();                                                //platzieren des Essens an einer zufälligen Stelle
 
-        setInterval(gameLoop, 250);                                 //bestimmen der Geschwindigkeit des Spiels, alle 250 Millisekunden wird ein F eld weitergegangen
+        setInterval(gameLoop, 100);                                 //bestimmen der Geschwindigkeit des Spiels, alle 250 Millisekunden wird ein F eld weitergegangen
 
         document.addEventListener("keydown", snakedirection);
 
@@ -74,7 +74,7 @@
                 renntinsichselberPart                                       //der Name sagt es
             ){
                 placefood()                                                 //nach dem Tod wird erneut Essen plaziert und die Schlange zurückgesetzt
-                snake = [{x: 10, y: 10}];
+                snake = [{x: 10, y: 10}, {x: 11, y: 10}];
                 direction = "LEFT";                                         //Startrichtung Links
             }
         }
